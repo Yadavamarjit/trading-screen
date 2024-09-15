@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import PriceChart from "../PriceChart/PriceChart";
+import Summary from "../Summary/Summary";
+import Statistics from "../Statistics/Statistics";
+import Analysis from "../Analysis/Analysis";
+import Setting from "../Setting/Setting";
 
 const tabs = [
   { id: "summary", label: "Summary" },
@@ -11,6 +15,10 @@ const tabs = [
 
 const componentMap = {
   chart: PriceChart,
+  summary: Summary,
+  statistics: Statistics,
+  analysis: Analysis,
+  settings: Setting,
 };
 
 export default function Tabs(props) {
