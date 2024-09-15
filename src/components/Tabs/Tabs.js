@@ -26,8 +26,6 @@ export default function Tabs(props) {
 
   const CurrentTab = componentMap[selectedTab];
 
-  console.log({ props });
-
   return (
     <>
       <div className="flex mb-5 border-b no-scrollbar font-semibold border-gray-300 dark:border-gray-700 w-full overflow-x-scroll">
