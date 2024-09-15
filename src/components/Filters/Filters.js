@@ -18,7 +18,7 @@ export default function Filters({
   };
 
   return (
-    <div className="flex justify-end gap-x-1 ml-11 sm:ml-0">
+    <div className="flex justify-end gap-x-1 ml-24 sm:ml-0">
       {["1d", "3d", "1w", "1m", "6m", "1y", "max"].map((range) => (
         <button
           key={range}
