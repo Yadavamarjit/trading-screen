@@ -100,7 +100,7 @@ const Chart = ({
     ],
     legend: { enabled: false },
     tooltip: {
-      shared: true,
+      shared: false,
       xDateFormat: "%b %e, %Y",
       pointFormat: "<b>{point.y:.2f} USD</b>",
     },
